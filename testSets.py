@@ -10,8 +10,8 @@ for value in range(9, 12):
 
 
 
-print 'csv---' ,csv
-print 'shp---' ,shp
+print 'csv---', csv
+print 'shp---', shp
 
 not_in_csv = set.difference(shp, csv)
 not_in_shp = set.difference(csv, shp)
